@@ -9,6 +9,10 @@
                 "parents": {
                     "/*": [
                         {
+                            "xml": "<feature name=\"KioskPlugin\"><param name=\"android-package\" value=\"jk.cordova.plugin.kiosk.KioskPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
@@ -32,10 +36,10 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-kiosk": {
             "PACKAGE_NAME": "jk.cordova.kioskdemo"
         },
-        "cordova-plugin-kiosk": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "jk.cordova.kioskdemo"
         }
     },
