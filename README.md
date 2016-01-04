@@ -1,7 +1,7 @@
 Howto create Cordova Kiosk app
 ==============================
 
-This example use **cordova-plugin-kiosk** - see https://github.com/honza889/cordova-kiosk-demo
+This example use **cordova-plugin-kiosk** - see https://github.com/honza889/cordova-plugin-kiosk
 
 To create new similar app:
 

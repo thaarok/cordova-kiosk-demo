@@ -23,11 +23,11 @@
                 "parents": {
                     "/manifest/application": [
                         {
-                            "xml": "<activity android:label=\"Cordova kiosk app launcher\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.HomeActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.HOME\" /></intent-filter></activity>",
+                            "xml": "<activity android:keepScreenOn=\"true\" android:label=\"Cordova kiosk app launcher\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.HomeActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.HOME\" /></intent-filter></activity>",
                             "count": 1
                         },
                         {
-                            "xml": "<activity android:label=\"Cordova kiosk app\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.KioskActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"></activity>",
+                            "xml": "<activity android:keepScreenOn=\"true\" android:label=\"Cordova kiosk app\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.KioskActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"></activity>",
                             "count": 1
                         }
                     ]

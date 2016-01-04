@@ -2,7 +2,8 @@
 <widget id="jk.cordova.kioskdemo" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>CordovaKioskDemo</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A sample Apache Cordova application that use plugin Kiosk plugin.
+        See https://github.com/honza889/cordova-plugin-kiosk
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
