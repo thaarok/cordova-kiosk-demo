@@ -44,6 +44,9 @@
             </div>
             <br />
             <button onclick="KioskPlugin.exitKiosk();">Secret button to exit Kiosk mode</button>
+            <br />
+            <br />
+            <button onclick="KioskPlugin.isInKiosk(function(x){ if(x) alert('in kiosk'); else alert('not in kiosk'); });">Test if in Kiosk mode</button>
         </div>
         
         <script type="text/javascript" src="cordova.js"></script>

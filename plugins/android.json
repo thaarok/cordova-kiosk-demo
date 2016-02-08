@@ -4,36 +4,7 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {
-            "res/xml/config.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"KioskPlugin\"><param name=\"android-package\" value=\"jk.cordova.plugin.kiosk.KioskPlugin\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "AndroidManifest.xml": {
-                "parents": {
-                    "/manifest/application": [
-                        {
-                            "xml": "<activity android:keepScreenOn=\"true\" android:label=\"Cordova kiosk app launcher\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.HomeActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.HOME\" /></intent-filter></activity>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:keepScreenOn=\"true\" android:label=\"Cordova kiosk app\" android:launchMode=\"singleTop\" android:name=\"jk.cordova.plugin.kiosk.KioskActivity\" android:theme=\"@android:style/Theme.NoTitleBar.Fullscreen\"></activity>",
-                            "count": 1
-                        }
-                    ]
-                }
-            }
-        }
+        "files": {}
     },
     "installed_plugins": {
         "cordova-plugin-kiosk": {
